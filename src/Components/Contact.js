@@ -96,7 +96,7 @@ const Contact = () => {
           handleChange(e);
         }}              rows="5"
             ></textarea>
-          <div className="mt-4">
+          <div className="mt-4 flex justify-center">
           <button
             type='submit'
             value="send"
