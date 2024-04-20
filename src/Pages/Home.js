@@ -12,11 +12,10 @@ function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
-
-
+  
   return (
     <main
-      className="min-h-screen mx-auto w-[80%] section md:flex justify-evenly items-center my-3 gap-4"
+      className="h-full mx-auto w-[80%] section md:flex justify-evenly items-center my-3 gap-4"
       id="home"
     >
 
@@ -30,8 +29,7 @@ function Home() {
       </div>
       <div className="md:items-center"  data-aos="fade-left" data-aos-duration="800" data-aos-easing="linear">
         <h1
-          className="text-3xl text-dark-heading dark:text-light-heading md:text-xl xl:text-2xl xl:leading-tight font-semibold"
-        >
+          className="text-3xl text-dark-heading dark:text-light-heading md:text-xl xl:text-2xl xl:leading-tight font-semibold">
           Hello, I'm<br></br>
         </h1>
         <h1
