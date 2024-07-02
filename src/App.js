@@ -11,10 +11,9 @@ import "./Pages/stars.scss"
 function App() {
   return (
       <>
-       <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
       <Header />
+      <div id="stars" />
+      <div id="stars2" />
       <Home/>
       <div id="about"></div>
       <About/>
