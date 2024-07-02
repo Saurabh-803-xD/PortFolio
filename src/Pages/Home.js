@@ -23,7 +23,7 @@ function Home() {
   data-aos-duration="800"
   data-aos-easing="linear"
 >
-  <div className="relative w-80 h-80 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[26rem] xl:h-[26rem] bg-gradient-to-r from-white via- to-blue-600 rounded-full shadow-lg p-1">
+  <div className="relative w-72 h-72 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[26rem] xl:h-[26rem] bg-gradient-to-r from-white via- to-blue-600 rounded-full shadow-lg p-1">
     <img
       className="rounded-full w-full h-full object-cover"
       src={img}
