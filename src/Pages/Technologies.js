@@ -2,6 +2,7 @@ import React from "react";
 import { techStackDetails } from "../Details";
 import AOS from 'aos';
 import { useEffect } from "react";
+import "./stars.scss";
 
 
 function Technologies() {
@@ -30,7 +31,7 @@ function Technologies() {
     }, []);
 
   return (
-    <main className="container mx-auto w-[70%] mt-10 pt-10 pb-20 h-full">
+    <main className="container mx-auto w-[70%] mt-10 pt-10 pb-20 h-full z-10">
     <section data-aos="fade-left" data-aos-duration="700" data-aos-easing="linear">
       <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
         Tech <span className="text-gradient">Stack /</span>
@@ -92,23 +93,7 @@ function Technologies() {
   </div>
 </div>
 
-    {/* <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6"
-    data-aos="fade-left" data-aos-duration="600" data-aos-easing="linear">
-      <div className="flex items-center justify-center bg-white bg-opacity-20 py-2 rounded-lg">
-    <img src={html} title="html" alt="HTML" className="icon w-full h-full object-contain" />
-      </div>
-      <img src={css} title="CSS" alt="" className="icon"/>
-      <img src={js} title="JavaScript" alt="" className="icon"/>
-      <img src={react} title="React" alt="" className="icon"/>
-      <img src={redux} title="Redux" alt="" className="icon"/>
-      <img src={tailwind} title="Tailwind CSS" alt="" className="icon"/>
-      <img src={java} title="java" alt="" className="icon"/>
-      <img src={c} title="c" alt="" className="icon"/>
-      <img src={mongodb} title="mongodb" alt="" className="icon"/>
-      <img src={nextjs} title="nextjs" alt="" className="icon"/>
-      <img src={express} title="express" alt="" className="icon"/>
-      <img src={vercel} title="vercel" alt="" className="icon bg-white rounded-full" />
-    </section> */}
+ 
     <section data-aos="fade-left" data-aos-duration="700" data-aos-easing="linear">
       <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
               Tools <span className="text-gradient"> /</span>
@@ -137,14 +122,6 @@ function Technologies() {
     <img src={vscode} title="Visual Studio Code" alt=""  className="icon w-full h-full object-contain" />
   </div>
 </div>
-    {/* <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6"
-    data-aos="fade-left" data-aos-duration="600" data-aos-easing="linear">
-      <img src={vscode} title="Visual Studio Code" alt="" className="icon"/>
-      <img src={git} title="Git" alt="Git" className="icon"/>
-      <img src={github} title="Github" alt="Github" className="icon"/>
-      <img src={npm} title="NPM" alt="NPM" className="icon"/>
-      <img src={postman} title="Postman" alt="Postman" className="icon"/>
-    </section> */}
   </main>
   );
 }

@@ -21,8 +21,8 @@ function App() {
       <Technologies/>
       <div id="projects"></div>
       <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
+      <div id="stars2" />
+      <div id="stars3" />
       <Projects/>
       <div id="contact"></div>
       <Contact/>
