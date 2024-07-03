@@ -42,11 +42,12 @@ body::-webkit-scrollbar {
       }
 
 .icon{
+  width: 4rem;
  transition: transform 0.3s ease; /* Smooth scaling transition */
 }
 
 .icon:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
   .social_icon{
