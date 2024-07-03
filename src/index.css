@@ -40,8 +40,8 @@ body::-webkit-scrollbar {
         font-size: 1.125rem;
         line-height: 1.75rem/* 28px */;
       }
+
 .icon{
- width:3.5rem;
  transition: transform 0.3s ease; /* Smooth scaling transition */
 }
 

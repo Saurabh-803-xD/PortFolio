@@ -65,19 +65,19 @@ function Home() {
             <img
               src={linkedin}
               alt="My LinkedIn profile"
-              className="social_icon w-8 sm:w-10"
+              className="social_icon w-[2.3rem]"
               onClick={() => window.open("https://www.linkedin.com/in/saurabh-verma-069823190/")}
             />
             <img
               src={github}
               alt="My GitHub profile"
-              className="social_icon w-8 sm:w-10"
+              className="social_icon w-[2rem]"
               onClick={() => window.open("https://github.com/Saurabh-803-xD")}
             />
             <img
               src={instagram}
               alt="My Instagram profile"
-              className="social_icon w-8 sm:w-10"
+              className="social_icon w-[1.9rem]"
               onClick={() => window.open("https://www.instagram.com/saurabhv_803/")}
             />
           </div>
