@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import Contact from "./Components/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+import ScrollToTop from "./Pages/ScrollToTop";
 
 import "./Pages/stars.scss"
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <div id="contact"></div>
       <Contact/>
       <Footer />
+      <ScrollToTop />
       </>
   );
 }
