@@ -36,11 +36,11 @@ const profiles = [
 
 const CodingProfileLinks = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-[25rem] p-4  mx-auto w-[90%]">
+    <div className="flex flex-col items-center justify-center h-[25rem] py-4 mx-auto w-[90%]">
       <h1 className="text-2xl md:text-4xl xl:text-5xl xl:leading-tight font-bold mb-10 dark:text-light-heading"
             data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear">
             <span className="bg-gradient-to-r from-sky-500 via-purple-500 to-pink-600 text-transparent bg-clip-text"> My</span> Coding Profiles</h1>
-      <div className="grid grid-cols-2 gap-6 sm:grid-cols-4 " 
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 " 
             data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear">
         {profiles.map((profile) => (
           <a
@@ -48,7 +48,7 @@ const CodingProfileLinks = () => {
             href={profile.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center bg-white bg-opacity-10 rounded-lg p-4 transform hover:-translate-y-2 transition-transform duration-300 shadow-lg shadow-slate-300 dark:shadow-slate-900"
+            className="flex flex-col items-center bg-white bg-opacity-10 rounded-lg p-2 transform hover:-translate-y-2 transition-transform duration-300 shadow-lg shadow-slate-300 dark:shadow-slate-900"
           >
             {profile.svg}
             <span className="mt-2 text-xl dark:text-light-heading">{profile.name}</span>

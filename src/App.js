@@ -16,9 +16,12 @@ function App() {
       <Header />
       <div id="stars" />
       <div id="stars2" />
+      <div id="home"></div>
       <Home/>
       <div id="about"></div>
       <About/>
+      <div id="stars" />
+      <div id="stars2" />
       <div id="stars3" />
       <div id="skills"></div>
       <Technologies/>
@@ -27,8 +30,12 @@ function App() {
       <div id="projects"></div>
       <Projects/>
       <CodingProfileLinks/>
+      <div id="stars" />
+      <div id="stars2" />
       <div id="contact"></div>
       <Contact/>
+      <div id="stars" />
+      <div id="stars2" />
       <Footer />
       <ScrollToTop />
       </>
