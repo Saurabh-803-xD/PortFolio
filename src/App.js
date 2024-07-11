@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import Contact from "./Components/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+import CodingProfileLinks from "./Pages/CodeProfile";
 import ScrollToTop from "./Pages/ScrollToTop";
 
 import "./Pages/stars.scss"
@@ -18,13 +19,14 @@ function App() {
       <Home/>
       <div id="about"></div>
       <About/>
+      <div id="stars3" />
       <div id="skills"></div>
       <Technologies/>
-      <div id="projects"></div>
       <div id="stars" />
       <div id="stars2" />
-      <div id="stars3" />
+      <div id="projects"></div>
       <Projects/>
+      <CodingProfileLinks/>
       <div id="contact"></div>
       <Contact/>
       <Footer />

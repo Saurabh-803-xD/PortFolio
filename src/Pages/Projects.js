@@ -9,7 +9,7 @@ function Projects() {
     AOS.init();
   }, []);
   return (
-    <main className="container mx-auto max-width mt-20 mb-20">
+    <main className="container mx-auto w-[80%] mt-20 mb-20">
       <section>
         <h1 className="text-2xl text-center text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         data-aos="fade-down" data-aos-duration="400" data-aos-easing="linear">

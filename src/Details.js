@@ -17,6 +17,7 @@ import express from "./assets/techstack/Express.png"
 import mongodb from "./assets/techstack/MongoDB.svg"
 import c from "./assets/techstack/c++.png"
 import java from "./assets/techstack/java.png"
+import cgpt from "./assets/techstack/icons8-chatgpt-64.png"
 import vercel from "./assets/techstack/Vercel.svg"
 // Porject Images
 import project1 from "./assets/projects/chainvault.png"
@@ -62,6 +63,7 @@ export const techStackDetails = {
   express: express,
   mongodb: mongodb,
   vercel:vercel,
+  cgpt:cgpt,
 };
 
 // Enter your Project Details here

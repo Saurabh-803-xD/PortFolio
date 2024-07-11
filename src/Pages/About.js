@@ -7,7 +7,7 @@ function About() {
     <main className="mx-auto w-[80%] pt-20 pb-20 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
-        data-aos="fade-down" data-aos-duration="400" data-aos-easing="linear">
+        data-aos="fade-left" data-aos-duration="400" data-aos-easing="linear">
           About <span className="text-gradient">Me /</span>
         </h1>
         <p className="text-content py-8 lg:max-w-3xl"
