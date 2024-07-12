@@ -104,9 +104,3 @@ export const projectDetails = [
     githubLink: "https://github.com/Saurabh-803-xD/Weather_App",
   },
 ];
-
-// Enter your Contact Details here
-export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
-};

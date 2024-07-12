@@ -38,12 +38,12 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
-          toast.success("Message sent successfully")
+          toast.success("Message sent successfully",{autoClose: 2000,})
           setFormData({from_name:"",email:'',message:''});
         },
         (error) => {
           console.log('FAILED...', error.text);
-          toast.error("Failed to send message.");
+          toast.error("Failed to send message.",{autoClose: 2000,});
         },
       );
   };
@@ -53,10 +53,10 @@ const Contact = () => {
       <div className="flex flex-col justify-center items-center text-white">
         {/* Heading */}
       <div data-aos="fade-down" data-aos-duration="400" data-aos-easing="linear" className=' pb-2'>
-      <h1 className="text-2xl ml-4 pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold items-center">
+      <h1 className="text-2xl ml-4 pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold text-center">
           Contact <span className='text-gradient'>Me /</span></h1>
         {/* <h1 className=''>Submit the form below to get in touch with me</h1> */}
-        <p className="text-content py-2 lg:max-w-3xl ml-4"
+        <p className="text-content py-2 lg:max-w-3xl ml-2 text-center"
         data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear">
         Submit the form below to get in touch with me
         </p>
