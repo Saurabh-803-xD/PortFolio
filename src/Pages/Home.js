@@ -3,18 +3,34 @@ import img from "../assets/ui/1.png";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import instagram from "../assets/instagram.svg";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import "./stars.scss";
+import "../App.css";
+
 
 function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(() => {
+      toast.success('Resume Downloaded');
+    }, 1000);
+
+  };
   
   return (
     <main
-      className="h-full mx-auto w-[90%] xl:w-[80%] section flex flex-col md:flex-row justify-evenly items-center my-6 gap-6"
+      className="h-full mx-auto w-[90%] xl:w-[80%] section flex flex-col md:flex-row justify-evenly items-center mt-6 mb-2 gap-6"
       id="home">
       <div
   className="flex justify-center md:justify-start md:flex-1 relative"
@@ -52,6 +68,7 @@ function Home() {
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-easing="linear"
+            onClick={handleDownload}
           >
             My Resume
           </button>
@@ -82,6 +99,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </main>
   );
 }

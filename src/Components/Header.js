@@ -24,7 +24,7 @@ const Header = () => {
         sticky ? "bg-black text-white" : "text-white"
       }`}
     >
-      <div className="flex items-center justify-between lg:justify-evenly md:ml-10">
+      <div className="flex items-center justify-between lg:justify-evenly md:ml-10 bg-black">
         <div className="mx-4">
        <a href="#home">
        <motion.div

@@ -40,14 +40,14 @@ const CodingProfileLinks = () => {
       <h1 className="text-2xl md:text-4xl xl:text-5xl xl:leading-tight font-bold mb-10 dark:text-light-heading"
             data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear">
             <span className="bg-gradient-to-r from-sky-500 via-purple-500 to-pink-600 text-transparent bg-clip-text"> My</span> Coding Profiles</h1>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 " 
-            data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
         {profiles.map((profile) => (
           <a
             key={profile.name}
             href={profile.url}
             target="_blank"
             rel="noopener noreferrer"
+            data-aos="fade-down" data-aos-duration="600" data-aos-easing="linear"
             className="flex flex-col items-center bg-white bg-opacity-10 rounded-lg p-2 transform hover:-translate-y-2 transition-transform duration-300 shadow-lg shadow-slate-300 dark:shadow-slate-900"
           >
             {profile.svg}
