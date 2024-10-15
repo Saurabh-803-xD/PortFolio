@@ -19,6 +19,9 @@ import c from "./assets/techstack/c++.png"
 import java from "./assets/techstack/java.png"
 import cgpt from "./assets/techstack/icons8-chatgpt-64.png"
 import vercel from "./assets/techstack/Vercel.svg"
+import kafka from "./assets/techstack/kafka3.png"
+import postgre from "./assets/techstack/postgre.png"
+import redis from "./assets/techstack/redis.png"
 // Porject Images
 import project1 from "./assets/projects/chainvault.png"
 import project2 from "./assets/projects/ecommerce.png"
@@ -64,6 +67,9 @@ export const techStackDetails = {
   mongodb: mongodb,
   vercel:vercel,
   cgpt:cgpt,
+  kafka:kafka,
+  postgre:postgre,
+  redis:redis
 };
 
 // Enter your Project Details here

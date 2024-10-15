@@ -16,8 +16,8 @@ function About() {
       <p className="text-content py-8 lg:max-w-3xl"
       data-aos="fade-left" data-aos-duration="600" data-aos-easing="linear">
       
-I master front-end tech like HTML, CSS, and JavaScript (incl. ReactJS, NextJs) and back-end skills in Node.js, Express, MongoDB, and SQL.<br/>
- I excel at building scalable web apps that innovate and seek a fulfilling software dev career to create lasting impact and drive transformative change.</p>
+      Aspiring Software Developer with expertise in front-end technologies like HTML, CSS, and JavaScript (React.js, Next.js) and back-end frameworks including Node.js, Express, MongoDB, PostgreSQL, Kafka, and Redis.<br/><br/>
+      Proven ability to build scalable, innovative web applications that drive transformation. Committed to leveraging technology for impactful solutions and advancing a fulfilling career in software development</p>
       </section>
       <section>
         <h1 className="text-2xl mt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"

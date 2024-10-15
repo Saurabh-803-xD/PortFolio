@@ -23,7 +23,10 @@ function Technologies() {
     java,
     c,
     vercel,
-    cgpt
+    cgpt,
+    kafka,
+    redis,
+    postgre
   } = techStackDetails;
 
   useEffect(() => {
@@ -145,8 +148,8 @@ function Technologies() {
         >
           <img
             src={c}
-            title="C"
-            alt="C"
+            title="C++"
+            alt="C++"
             className="icon w-full h-full object-contain"
           />
         </div>
@@ -199,6 +202,45 @@ function Technologies() {
             src={vercel}
             title="Vercel"
             alt="Vercel"
+            className="icon w-full h-full object-contain "
+          />
+        </div>
+        <div
+          className="flex items-center justify-center shadow-lg shadow-slate-300 dark:shadow-slate-900 bg-black bg-opacity-10 p-4 rounded-lg"
+          data-aos="fade-down"
+          data-aos-duration="600"
+          data-aos-easing="linear"
+        >
+          <img
+            src={kafka}
+            title="kafka"
+            alt="kafka"
+            className="icon w-full h-full object-contain "
+          />
+        </div>
+        <div
+          className="flex items-center justify-center shadow-lg shadow-slate-300 dark:shadow-slate-900 bg-black bg-opacity-10 p-4 rounded-lg"
+          data-aos="fade-down"
+          data-aos-duration="600"
+          data-aos-easing="linear"
+        >
+          <img
+            src={redis}
+            title="redis"
+            alt="redis"
+            className="icon w-full h-full object-contain "
+          />
+        </div>
+        <div
+          className="flex items-center justify-center shadow-lg shadow-slate-300 dark:shadow-slate-900 bg-black bg-opacity-10 p-4 rounded-lg"
+          data-aos="fade-down"
+          data-aos-duration="600"
+          data-aos-easing="linear"
+        >
+          <img
+            src={postgre}
+            title="postgre"
+            alt="postgre"
             className="icon w-full h-full object-contain "
           />
         </div>
