@@ -7,6 +7,7 @@ import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
+import rn from "./assets/techstack/rn.svg"
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/ui/github.svg";
 import git from "./assets/techstack/git.png";
@@ -15,8 +16,6 @@ import postman from "./assets/techstack/postman.png";
 import nextjs from "./assets/techstack/NextJsCircle.png"
 import express from "./assets/techstack/Express.png"
 import mongodb from "./assets/techstack/MongoDB.svg"
-import c from "./assets/techstack/c++.png"
-import java from "./assets/techstack/java.png"
 import cgpt from "./assets/techstack/icons8-chatgpt-64.png"
 import vercel from "./assets/techstack/Vercel.svg"
 import kafka from "./assets/techstack/kafka3.png"
@@ -24,9 +23,9 @@ import postgre from "./assets/techstack/postgre.png"
 import redis from "./assets/techstack/redis.png"
 // Porject Images
 import project1 from "./assets/projects/chainvault.png"
-import project2 from "./assets/projects/ecommerce.png"
-import project3 from "./assets/projects/passwordGen.png"
-import project4 from "./assets/projects/weatherapp.png"
+import project2 from "./assets/projects/encryption.png"
+import project3 from "./assets/projects/music_player.png"
+import project4 from "./assets/projects/incognito.png"
 
 
 // Enter your Education Details here
@@ -61,15 +60,14 @@ export const techStackDetails = {
   git: git,
   github: github,
   nextjs : nextjs,
-  c:c,
-  java:java,
   express: express,
   mongodb: mongodb,
   vercel:vercel,
   cgpt:cgpt,
   kafka:kafka,
   postgre:postgre,
-  redis:redis
+  redis:redis,
+  rn:rn
 };
 
 // Enter your Project Details here
@@ -84,29 +82,27 @@ export const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "UrbanFlow",
-    image: project2,
-    description: `UrbanFlow is a frontend e-commerce project featuring a user-friendly interface,
-     personalized products, responsive design, and a diverse product catalog.`,
-    techstack: "ReactJS, Tailwind CSS",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/Saurabh-803-xD/Ecommerce-UrbanFlow",
-  },
-  {
-    title: "Password Generator",
+    title: "Music Player App",
     image: project3,
-    description: `Password Generator Project where users can input the desired password length, and receive 
-    a randomly generated password containing letters, numbers, and special characters. `,
-    techstack: "JavaScript, Tailwind ",
-    previewLink: "https://password-generator-803.netlify.app/",
-    githubLink: "https://github.com/Saurabh-803-xD/Password_Generator",
+    description: `A music player app built using React Native allows users to play, pause, skip, and manage their music library seamlessly across both iOS and Android platforms.`,
+    techstack: "React Native",
+    previewLink: "https://github.com/Saurabh-803-xD/Music_player_RN",
+    githubLink: "https://github.com/Saurabh-803-xD/Music_player_RN",
   },
   {
-    title: "Weather App",
-    image: project4,
-    description: `This weather app displays current weather information based on user input (like city or zip code). It fetches data from a weather API.`,
-    techstack: "JavaScript, API",
-    previewLink: "https://main--weather-app-803.netlify.app/",
-    githubLink: "https://github.com/Saurabh-803-xD/Weather_App",
+    title: "Encryption Decryption",
+    image: project2,
+    description: `This C++ project implements a robust encryption and decryption system designed to securely encode and decode sensitive data.`,
+    techstack: "C++ ",
+    previewLink: "https://github.com/Saurabh-803-xD/Encryption-Decryption",
+    githubLink: "https://github.com/Saurabh-803-xD/Encryption-Decryption",
   },
+  {
+    title: "Incognito Chat App",
+    image: project4,
+    description: `A real time messaging application designed for scalability. I used Kafka and Redis to ensure the application could handle large-scale traffic.`,
+    techstack: "NextJS, Kafka, Redis, Tailwind CSS",
+    previewLink: "https://incognito-chat-app.vercel.app/",
+    githubLink: "https://incognito-chat-app.vercel.app/",
+  }
 ];

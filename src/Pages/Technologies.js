@@ -9,6 +9,7 @@ function Technologies() {
     html,
     css,
     js,
+    rn,
     react,
     redux,
     tailwind,
@@ -20,9 +21,6 @@ function Technologies() {
     express,
     mongodb,
     nextjs,
-    java,
-    c,
-    vercel,
     cgpt,
     kafka,
     redis,
@@ -134,32 +132,6 @@ function Technologies() {
           data-aos-easing="linear"
         >
           <img
-            src={java}
-            title="Java"
-            alt="Java"
-            className="icon w-full h-full object-contain"
-          />
-        </div>
-        <div
-          className="flex items-center justify-center bg-opacity-10 p-4 rounded-lg shadow-lg shadow-slate-300 dark:shadow-slate-900 bg-black"
-          data-aos="fade-down"
-          data-aos-duration="600"
-          data-aos-easing="linear"
-        >
-          <img
-            src={c}
-            title="C++"
-            alt="C++"
-            className="icon w-full h-full object-contain"
-          />
-        </div>
-        <div
-          className="flex items-center justify-center bg-white bg-opacity-10 p-4 rounded-lg"
-          data-aos="fade-down"
-          data-aos-duration="600"
-          data-aos-easing="linear"
-        >
-          <img
             src={mongodb}
             title="MongoDB"
             alt="MongoDB"
@@ -199,9 +171,9 @@ function Technologies() {
           data-aos-easing="linear"
         >
           <img
-            src={vercel}
-            title="Vercel"
-            alt="Vercel"
+            src={rn}
+            title="react Native"
+            alt="react Native"
             className="icon w-full h-full object-contain "
           />
         </div>
